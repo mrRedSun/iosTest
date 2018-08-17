@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3078AB4B2126F203008E9FD3 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078AB4A2126F203008E9FD3 /* UserRepository.swift */; };
+		3078AB4E2126F4D0008E9FD3 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078AB4D2126F4D0008E9FD3 /* Endpoints.swift */; };
+		3078AB512126FAFC008E9FD3 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078AB502126FAFC008E9FD3 /* UIViewController+Alert.swift */; };
+		3078AB532126FCAB008E9FD3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078AB522126FCAB008E9FD3 /* Constants.swift */; };
 		3087DF982126C210009AE6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3087DF972126C210009AE6F3 /* AppDelegate.swift */; };
 		3087DF9A2126C210009AE6F3 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3087DF992126C210009AE6F3 /* UserListViewController.swift */; };
 		3087DF9D2126C210009AE6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3087DF9B2126C210009AE6F3 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3078AB4A2126F203008E9FD3 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		3078AB4D2126F4D0008E9FD3 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		3078AB502126FAFC008E9FD3 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		3078AB522126FCAB008E9FD3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3087DF942126C210009AE6F3 /* 303Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 303Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3087DF972126C210009AE6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3087DF992126C210009AE6F3 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +45,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3078AB492126F1F1008E9FD3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3078AB4A2126F203008E9FD3 /* UserRepository.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3078AB4C2126F4B0008E9FD3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3078AB4D2126F4D0008E9FD3 /* Endpoints.swift */,
+				3078AB522126FCAB008E9FD3 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3078AB4F2126FAE2008E9FD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3078AB502126FAFC008E9FD3 /* UIViewController+Alert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		3087DF8B2126C20F009AE6F3 = {
 			isa = PBXGroup;
 			children = (
@@ -166,7 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3087DFAF2126C280009AE6F3 /* UserModel.swift in Sources */,
+				3078AB4B2126F203008E9FD3 /* UserRepository.swift in Sources */,
+				3078AB512126FAFC008E9FD3 /* UIViewController+Alert.swift in Sources */,
+				3078AB532126FCAB008E9FD3 /* Constants.swift in Sources */,
 				3087DF982126C210009AE6F3 /* AppDelegate.swift in Sources */,
+				3078AB4E2126F4D0008E9FD3 /* Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
